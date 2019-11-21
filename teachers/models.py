@@ -14,9 +14,8 @@ class Teacher(models.Model):
 
 
 class Allot(models.Model):
-    teacher=models.ForeignKey(Teacher, on_delete=models.CASCADE)
-    subject=models.ForeignKey(Subject, on_delete=models.CASCADE)
+    teacher = models.ForeignKey(Teacher, on_delete=models.CASCADE)
+    subject = models.ForeignKey(Subject, on_delete=models.CASCADE)
 
     def __str__(self):
         return f'{self.teacher.name}-{self.subject.name}'
-V6

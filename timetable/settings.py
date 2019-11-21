@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'admins.apps.AdminsConfig',
     'subjects.apps.SubjectsConfig',
     'classes.apps.ClassesConfig',
+    'timetables.apps.TimetablesConfig',
     'crispy_forms',
 ]
 
